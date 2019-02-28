@@ -1,6 +1,6 @@
 spring:
   profiles:
-    include: dev
+    include: prod
 
 zuul:
   routes:
