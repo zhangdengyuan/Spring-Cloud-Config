@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    include: test
+
+zuul:
+  routes:
+    eureka-provider-service:
+      path: /providerApi/**
+      serviceId: eureka-provider-service
+    eureka-consumer-service:
+      path: /consumerApi/**
+      serviceId: eureka-consumer-service
