@@ -1,6 +1,6 @@
 spring:
   profiles:
-    include: test
+    include: prod
 ---
 zuul:
   routes:
