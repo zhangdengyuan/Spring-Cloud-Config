@@ -1,12 +1,12 @@
 #spring:
 #  profiles:
 #    include: dev
-content: consumer5
+content: consumer6
 ---
 #rabbitMQ
 spring:
   rabbitmq:
     host: 127.0.0.1
-    port: 5672
-    username: guest
-    password: guest
+    port: 56726
+    username: guest6
+    password: guest6
