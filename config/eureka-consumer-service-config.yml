@@ -1,7 +1,8 @@
-#spring:
-#  profiles:
-#    include: dev
-content: consumer
+---
+#profile set
+spring:
+  profiles:
+    include: dev
 ---
 #rabbitMQ
 spring:

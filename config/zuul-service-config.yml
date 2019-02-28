@@ -1,8 +1,11 @@
-#spring:
-#  profiles:
-#    include: dev
+---
+#profile set
+spring:
+  profiles:
+    include: dev
 content: zuul2
 ---
+#router set
 zuul:
   routes:
     eureka-provider-service:
