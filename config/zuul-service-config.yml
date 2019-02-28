@@ -2,7 +2,7 @@
 #profile set
 spring:
   profiles:
-    include: dev
+    include: test
 ---
 #router set
 zuul:

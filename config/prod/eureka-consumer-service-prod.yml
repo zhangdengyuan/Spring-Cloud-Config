@@ -1,1 +1,8 @@
 content: consumer-prod
+---
+eureka:
+  instance:
+    lease-expiration-duration-in-seconds: 90
+    lease-renewal-interval-in-seconds: 30
+  client:
+    registry-fetch-interval-seconds: 60

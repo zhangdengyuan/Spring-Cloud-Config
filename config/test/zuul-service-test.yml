@@ -1,1 +1,9 @@
 content: test-zuul
+
+---
+eureka:
+  instance:
+    lease-expiration-duration-in-seconds: 5
+    lease-renewal-interval-in-seconds: 5
+  client:
+    registry-fetch-interval-seconds: 5
