@@ -24,3 +24,16 @@ spring:
     port: 5672
     username: guest
     password: guest
+---
+# retry
+spring:
+  cloud:
+    config:
+      retry:
+        #retry count
+        max-attempts: 3
+        multiplier: 1.1
+        #init for retry time
+        initial-interval: 1000
+        #max interval for retry time
+        max-interval: 2000
