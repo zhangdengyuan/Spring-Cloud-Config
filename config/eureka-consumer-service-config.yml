@@ -10,9 +10,3 @@ spring:
     port: 5672
     username: guest
     password: guest
-
----
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://peer1:5001/eureka/,http://peer2:5002/eureka/,http://peer3:5003/eureka/
