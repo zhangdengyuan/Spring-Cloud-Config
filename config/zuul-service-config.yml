@@ -3,7 +3,6 @@
 spring:
   profiles:
     include: dev
-content: zuul2
 ---
 #router set
 zuul:
