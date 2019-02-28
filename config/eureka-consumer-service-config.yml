@@ -1,12 +1,18 @@
 #spring:
 #  profiles:
 #    include: dev
-content: consumer7
+content: consumer
 ---
 #rabbitMQ
 spring:
   rabbitmq:
     host: 127.0.0.1
-    port: 56727
-    username: guest7
-    password: guest7
+    port: 5672
+    username: guest
+    password: guest
+
+---
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://peer1:5001/eureka/,http://peer2:5002/eureka/,http://peer3:5003/eureka/
